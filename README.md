@@ -1,29 +1,30 @@
 # Clinic Website
 
-Clinic Website is a web project for presenting clinic or healthcare service information online. It is intended for pages such as services, doctors, appointments, contact information, and patient-facing content.
+Clinic Website is a healthcare/clinic web project for presenting services, doctors, appointments, and contact information.
 
-## Project Details
+## Features
 
-- Repository: `NahinAhmed28/clinic-website`
-- Default branch: `main`
-- Visibility: public
-- Project type: clinic / healthcare website
-- Main focus: service presentation and responsive pages
+- Clinic service and department presentation
+- Doctor/profile-ready sections
+- Appointment or contact call-to-action areas
+- Responsive website structure
+
+## Modules
+
+- Service module: clinic services and descriptions
+- Doctor/team module: staff profiles and specializations
+- Appointment module: booking CTA or contact workflow
+- Asset module: images, styles, scripts, and static resources
+
+## System Architecture
+
+The project is primarily a front-end website. Static pages render clinic information in the browser. Appointment or contact workflows can later connect to a backend API or form service. Static assets and responsive CSS support the user-facing presentation.
 
 ## Getting Started
 
 ```bash
 git clone https://github.com/NahinAhmed28/clinic-website.git
 cd clinic-website
-```
-
-Open the main HTML file in a browser, or run the package-based development command if dependencies are present.
-
-```bash
 npm install
 npm run dev
 ```
-
-## Notes
-
-Do not commit private patient data or production credentials. Add screenshots, setup details, and a deployment link as the project evolves.
